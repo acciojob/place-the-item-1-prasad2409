@@ -1,2 +1,30 @@
 
 /* Your CSS Code here. */
+.flex-container{
+	display: flex;
+    flex-wrap: wrap;
+}
+#d1{
+	width:100px;
+	height:100px;
+	background-color: green;
+	font-size:50px;
+	float: left;
+	margin: 10px;
+}
+#d2{
+	width:100px;
+	height:100px;
+	background-color:red;
+	font-size:50px;
+	float: center;
+	margin: 10px;
+}
+#d3{
+	width:100px;
+	height:100px;
+	background-color: blue;
+	font-size:50px;
+	float: right;
+	margin: 10px;
+}
